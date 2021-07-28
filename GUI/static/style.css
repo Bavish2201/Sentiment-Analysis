@@ -1,0 +1,70 @@
+body {
+    font-family: Calibri;
+}
+
+#title {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 100;
+    color: #525252;
+    margin-top: 25vh;
+}
+
+form {
+    text-align: center;
+}
+
+#review {
+    width: 60%;
+    padding: 10px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    outline: none;
+}
+
+#review:hover {
+    box-shadow: 0px 1px 7px 0px #e0e0e0;
+}
+
+#submit {
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: 0px;
+    color: #2d2d2d;
+    background: #eeefee;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+}
+
+#submit:hover {
+    border: 1px solid #d8d8d8;
+    background: #f3f3f3;
+}
+
+#rating {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-top: 20px;
+}
+
+#review_text {
+    margin: 0 20vw;
+    font-size: 20px;
+    text-align: center;
+}
+
+.probs_section {
+    text-align: center;
+    color: grey;
+}
+
+#toggleButton {
+    outline: none;
+    background: none;
+    border: none;
+    color: grey;
+    text-decoration: underline;
+    cursor: pointer;
+}
